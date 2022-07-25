@@ -1,5 +1,10 @@
+import Todo from "./components/Todo";
 function App() {
-  return <div className="bg-slate-400">Hi there</div>;
+  return (
+    <>
+      <Todo />
+    </>
+  );
 }
 
 export default App;
